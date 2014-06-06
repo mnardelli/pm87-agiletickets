@@ -118,7 +118,7 @@ public class EspetaculoTest {
 		
 		List<Sessao> sessoes = ivete.criaSessoes(inicio, fim, horario, diaria);
 		
-		Assert.assertEquals(26, sessoes.size());
+		Assert.assertEquals(6, sessoes.size());
 		
 		
 	}
